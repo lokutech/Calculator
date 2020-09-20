@@ -16,12 +16,12 @@ function App() {
     if (e.key === 'c'){
       setNumber("")
     } 
-    else if (e.keyCode === 13){
+    else if (e.keyCode === 13){ // Enter keypress
       handleEqual(e.target.value || number)
     }
 }
 
-  // Checks to make sure only numbers and '.' are allowed.
+  // Checks to make sure only numbers and '.+-/*' are allowed.
   function validateAndUpdate (value) {
     if (!value.match(/[^0-9.+-/*]/g)){
       setNumber(value)
@@ -63,13 +63,13 @@ function App() {
         ></input>
         {/* Row 1 */}
         <div className="row">
-          <div className="key" id="seven" onClick={() => addToDisplay('7')}>
+          <div className="key" onClick={() => addToDisplay('7')}>
             7
           </div>
-          <div className="key" id="eight" onClick={() => addToDisplay('8')}>
+          <div className="key" onClick={() => addToDisplay('8')}>
             8
           </div>
-          <div className="key" id="nine" onClick={() => addToDisplay('9')}>
+          <div className="key" onClick={() => addToDisplay('9')}>
             9
           </div>
           <div
