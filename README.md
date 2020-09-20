@@ -7,10 +7,4 @@
 </a>
 
 # Calculator 
-This is a simple Javascript calculator. You may reach it by clicking on the green github pages badge above.
-
-A simple calculator built with ReactJS
-
-    Use the keypad or click
-    Use C to clear
-    Use Enter to calculate
+This is a simple Javascript calculator built with ReactJS. You may reach it by clicking on the green github pages badge above.
