@@ -1,4 +1,4 @@
-<a href="https://lokutech.github.io/Calculator/">
+<a href="https://onattech.github.io/Calculator/">
   <img src="https://img.shields.io/badge/Online_at_Github_Pages-success?logo=github"  height="22">
 </a>
 
